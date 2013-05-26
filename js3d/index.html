@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head>
+<body onload="start();">
+	<script type="text/javascript" src="lib/jquery/jquery-2.0.0.js"></script>
+	<script type="text/javascript" src="lib/js3d/common/core.js"></script>
+	<div>
+		<a href="#">Add Rectangle</a>
+	</div>
+	<canvas id="mainCanvas" style="border: none;" width="500" height="500">
+	</canvas>
+	<script type="text/javascript">
+		function start() {
+			var core = new js3d();
+			core.initialize(document.getElementById("mainCanvas"));
+		}
+	</script>
+</body>
+</html>
